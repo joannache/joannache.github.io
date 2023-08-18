@@ -1,0 +1,48 @@
+---
+---
+@import "{{site.theme}}";
+
+h3, h4, h5, h6 {
+  margin-bottom: 0em;
+}
+
+body {
+  background-color: #fff;
+  padding:5em;
+  font: 18px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+// .paperlinks {
+//   list-style-type: none;
+// }
+//
+// li a .paperlinks {
+//   display: inline-block;
+// }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: -1em;
+  overflow: hidden;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: inline-block;
+  text-align: center;
+  padding: 0px 10px;
+  text-decoration: none;
+}
+
+
+// header {
+//   width:20em;
+// }
+//
+// section {
+//   width: 50em;
+// }
