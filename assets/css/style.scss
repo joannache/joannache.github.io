@@ -12,13 +12,6 @@ body {
   font: 18px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-// .paperlinks {
-//   list-style-type: none;
-// }
-//
-// li a .paperlinks {
-//   display: inline-block;
-// }
 ul {
   list-style-type: none;
   margin: 0;
@@ -28,7 +21,8 @@ ul {
 }
 
 ul li {
-  float: left;
+  // float: left;
+  display: inline-block;
 }
 
 ul li a {
@@ -38,14 +32,27 @@ ul li a {
   text-decoration: none;
 }
 
-div.extraspace {
+div.emptyspace {
+  height: 5em;
+}
+
+div.social {
+  padding: 1em;
+  text-align: center;
+
+  h2 {
+    margin: 0, 0, 20px;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 
-// header {
-//   width:20em;
-// }
-//
-// section {
-//   width: 50em;
-// }
+header {
+  img {
+    border-radius: 50%;
+  }
+}

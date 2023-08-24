@@ -1,7 +1,3 @@
-<!-- --- -->
-<!-- layout: pub -->
-<!-- --- -->
-<!--  -->
 ## Publications
 
 ### DZiG: Sparsity-Aware Incremental Processing Of Streaming Graphs
